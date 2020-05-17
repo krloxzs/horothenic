@@ -1,11 +1,11 @@
-baseurl = "https://horothenic-kappa.now.sh/"
-title = "Nederburg"
+baseurl = "https://horothenic.com/"
+title = "Horothenic"
 theme = "nederburg"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-166871864-1"
 preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
 
@@ -26,7 +26,7 @@ paginate = 5 #frontpage pagination
   description = "My little piece of web heaven." # meta description
   # You need to set author to have an author bio. If you have a writer in the markdown file it will override this.
   author = "Ivan Herrera"
-  authorLink = "https://github.com/Horothenic"
+  authorLink = "https://horothenic.com/"
   bio = [
     "Ivan Herrera is a game developer."
   ]
@@ -78,7 +78,7 @@ paginate = 5 #frontpage pagination
   instagram     = "https://www.instagram.com/horothenic/"
   github        = "https://github.com/Horothenic"
   # pinterest     = "full profile url in pinterest"
-  rss           = true
+  # rss           = true
 
 # Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
 #  [params.writers]
