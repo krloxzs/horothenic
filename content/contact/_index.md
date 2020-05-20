@@ -1,15 +1,6 @@
 +++
 date = ""
-title = "Get in touch"
+title = "Contact"
 +++
 
-I want to share here the phrase that changed me the most from the moment I heard it, the phrase that until this day is my **life motto**, the phrase the more I hear it the more I think is a very good way to achieve happiness, the phrase I am most surprised I found in a zombie movie.
-
-> *Enjoy the little things.*  ***- Columbus from Zombieland***
-
-Send me a message if you want me to...  
-* ...collaborate with your project.  
-* ...give you advice as a game developer.  
-* ...work for you.  
-* ...talk about an article I posted.  
-* ...tell you how I created this static site.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
