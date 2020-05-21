@@ -3,35 +3,44 @@
     {{ if ( ne .Site.Title "" ) }}
     <a href="{{ .Site.BaseURL | relLangURL }}"> {{ .Site.Title }} </a>
     {{ end }}</div>
-  </div>
-  <button id="toggle-navigation" class="toggle-navigation">
-    <i class="fas fa-bars"></i>
-  </button>
+</div>
+<button id="toggle-navigation" class="toggle-navigation">
+  <i class="fas fa-bars"></i>
+</button>
 
-  <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
-  <div id="menu-primary" class="menu-container menu-primary" role="navigation">
-    {{ with .Site.Params.Slogan }}
-    <p class="site-description">{{ . | default "" | safeHTML }}</p>
-    {{ end }}
+<div id="menu-primary-tracks" class="menu-primary-tracks"></div>
+<div id="menu-primary" class="menu-container menu-primary" role="navigation">
+  {{ with .Site.Params.Slogan }}
+  <p class="site-description">{{ . | default "" | safeHTML }}</p>
+  {{ end }}
 
-    <div class="menu">
-      <ul id="menu-primary-items" class="menu-primary-items">
-        {{ $page := . }}
-        {{ range .Site.Menus.main }}
-        <li class='menu-item {{ if eq ("/") (.URL) }}menu-item-type-custom menu-item-object-custom{{ else }}menu-item-type-post_type menu-item-object-page{{ end }} {{ if $page.IsMenuCurrent "main" . }}current-menu-item current_page_item{{ end }}'>
-          <a href="{{ .URL | absURL }}">{{ .Name }}</a>
-          {{ if .HasChildren }}
-          <ul class="sub-menu">
-            {{ range .Children }}
-            <li class='menu-item {{ if eq ("/") (.URL) }}menu-item-type-custom menu-item-object-custom{{ else }}menu-item-type-post_type menu-item-object-page{{ end }} {{ if $page.IsMenuCurrent "main" . }}current-menu-item current_page_item{{ end }}'>
-              <a href="{{ .URL | absURL }}">{{ .Name }}</a>
-            </li>
-            {{ end }}
-          </ul>
+  <div class="menu">
+
+    <div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default"
+      data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0&appId=844810118912803&autoLogAppEvents=1"></script>
+    <ul id="menu-primary-items" class="menu-primary-items">
+      {{ $page := . }}
+      {{ range .Site.Menus.main }}
+      <li
+        class='menu-item {{ if eq ("/") (.URL) }}menu-item-type-custom menu-item-object-custom{{ else }}menu-item-type-post_type menu-item-object-page{{ end }} {{ if $page.IsMenuCurrent "main" . }}current-menu-item current_page_item{{ end }}'>
+        <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+        {{ if .HasChildren }}
+        <ul class="sub-menu">
+          {{ range .Children }}
+          <li
+            class='menu-item {{ if eq ("/") (.URL) }}menu-item-type-custom menu-item-object-custom{{ else }}menu-item-type-post_type menu-item-object-page{{ end }} {{ if $page.IsMenuCurrent "main" . }}current-menu-item current_page_item{{ end }}'>
+            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+          </li>
           {{ end }}
-        </li>
+        </ul>
         {{ end }}
-      </ul>
-    </div>
-
+      </li>
+      {{ end }}
+    </ul>
   </div>
+
+</div>

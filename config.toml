@@ -22,7 +22,7 @@ paginate = 5 #frontpage pagination
 [params]
   # Unmark to use post folder for images. Default is static folder.
   #usepostimgfolder = true
-  slogan = "At your service."
+  slogan = "A tu servicio."
   description = "." # meta description
   # You need to set author to have an author bio. If you have a writer in the markdown file it will override this.
   author = "Carlos Rodriguez"
@@ -58,39 +58,44 @@ paginate = 5 #frontpage pagination
   weight = 1
 
   [[menu.main]]
-  name = "Mission"
-  url = "mission/"
+  name = "Marketing"
+  url = "marketing/"
   weight = 2
+
+  [[menu.main]]
+  name = "Mision"
+  url = "mission/"
+  weight = 3
 
   [[menu.main]]
   name = "Vision"
   url = "vision/"
-  weight = 3
-
-  [[menu.main]]
-  name = "Products"
-  url = "products/"
   weight = 4
 
   [[menu.main]]
-  name = "Privacy Policy"
-  url = "policy/"
+  name = "Productos"
+  url = "products/"
   weight = 5
+
+  [[menu.main]]
+  name = "Politica"
+  url = "policy/"
+  weight = 6
 
   [[menu.main]]
   name = "FAQ"
   url = "faq/"
-  weight = 6
-
-  [[menu.main]]
-  name = "About"
-  url = "about/"
   weight = 7
 
   [[menu.main]]
-  name = "Contact"
-  url = "contact/"
+  name = "Acerca de"
+  url = "about/"
   weight = 8
+
+  [[menu.main]]
+  name = "Contacto"
+  url = "contact/"
+  weight = 9
 
 # this will also be in author bio if there is no writer.
   [params.social]
