@@ -12,7 +12,7 @@ paginate = 5 #frontpage pagination
 [privacy]
   # Google Analytics privacy settings - https://gohugo.io/about/hugo-and-gdpr/index.html#googleanalytics
   [privacy.googleAnalytics]
-    # set to true to disable service 
+    # set to true to disable service
     disable = false
     # set to true to meet General Data Protection Regulation (GDPR)
     anonymizeIP = false
@@ -25,10 +25,10 @@ paginate = 5 #frontpage pagination
   slogan = "A tu servicio."
   description = "." # meta description
   # You need to set author to have an author bio. If you have a writer in the markdown file it will override this.
-  author = "Carlos Rodriguez"
+  author = "UDGVirtual :D"
   authorLink = ""
   bio = [
-    "Carlos Rofriguez is the CEO of PCMUNDIAL, the world best PC components retailer"
+    "UDGVirtual is the CEO of PCMUNDIAL, the world best PC components retailer"
   ]
   copyright = [
     "",
@@ -49,7 +49,7 @@ paginate = 5 #frontpage pagination
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "carlosrodriguezguerrero@gmail.com"
+  email = "UDGVirtual@demo.com"
 
   # Nav links in the side bar
   [[menu.main]]
